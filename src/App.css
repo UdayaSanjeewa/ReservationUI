@@ -1,0 +1,560 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.ctech_logo:hover {
+  cursor: pointer;
+}
+
+.toggle_button {
+  display: none;
+}
+
+/* Navbar */
+
+.navbar_items_div {
+  height: 65px;
+}
+
+.navBarNormal {
+  height: 100%;
+  display: flex;
+}
+
+.navBarNormal a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.navBarNormalItem {
+  background-color: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.navBarNormalItem:hover {
+  background-color: #34495e;
+  cursor: pointer;
+}
+
+.toggleBar {
+  display: none;
+}
+
+/* Navbar ends */
+
+.carousel {
+  width: 90%;
+  background-size: contain;
+}
+
+.home_carausal_container {
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.home_carousal_overlay {
+  position: absolute;
+  border-radius: 20px;
+  padding: 10px;
+  top: 300px;
+  left: 120px;
+  background-color: rgba(80, 73, 73, 0.658);
+  z-index: 1000;
+}
+
+.home_carousal_overlay_text {
+  color: white;
+}
+
+.home_carousal_overlay_button {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.home_carousal_overlay_button:hover {
+  background-color: white;
+  color: black;
+}
+
+.bookingCard {
+  position: absolute;
+  bottom: -200px;
+  background-color: white;
+  height: 250px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  -webkit-box-shadow: 21px 28px 26px -7px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 21px 28px 26px -7px rgba(0, 0, 0, 0.72);
+  box-shadow: 21px 28px 26px -7px rgba(0, 0, 0, 0.72);
+}
+
+.booking_card_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.booking_card_left {
+  display: flex;
+  justify-content: center;
+  left: 0;
+  height: cover;
+  background: rgb(3,142,190);
+  background: linear-gradient(90deg, rgba(3,142,190,1) 15%, rgba(0,73,171,1) 56%);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.booking_card_title {
+  color: white;
+}
+
+.booking_card_subtitle {
+  color: white;
+}
+
+.booking_card_right {
+  padding: 10px;
+  width: 70%;
+}
+
+.booking_card_right_upper {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+}
+
+.booking_datepicker_container {
+  width: 30%;
+  z-index: 1000;
+}
+
+.return_datepicker_container {
+  width: 35%;
+  z-index: 1000;
+  position: absolute;
+  right: -90px;
+}
+
+.booking_card_right_middle {
+  display: flex;
+  /* gap: 20px; */
+  width: 100%;
+  height: 100px;
+}
+
+.date_picker {
+  background-color: transparent;
+}
+
+.form-outline {
+  width: 240px;
+}
+
+.form-control {
+  background-color: transparent;
+  border-color: black;
+}
+
+.booking_card_right_lower {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 60px;
+}
+
+.booking_card_right_lower_container {
+  display: flex;
+  gap: 20px;
+}
+
+.gallery_container {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upper_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.lower_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 200px;
+}
+
+.gallery_image {
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 10px;
+  -webkit-box-shadow: 14px 14px 31px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 14px 31px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 14px 14px 31px -8px rgba(0, 0, 0, 0.75);
+}
+
+/* History */
+.history_container {
+  margin-top: 40px;
+}
+
+.history_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.history_paragraph {
+  text-align: justify;
+}
+
+/* Our Services */
+.our_services_upper {
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.our_services_middle {
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.our_services_lower {
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service_container {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: auto;
+  width: 28%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 14px 14px 31px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 14px 31px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 14px 14px 31px -8px rgba(0, 0, 0, 0.75);
+}
+
+.service_container p {
+  padding: 0;
+  margin: 0;
+}
+
+/* Contact */
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact_upper {
+  display: flex;
+  gap: 20px;
+}
+
+.contact_middle {
+  display: flex;
+  gap: 20px;
+}
+
+.contact_textfield {
+  width: 50%;
+}
+
+.contact_textarea {
+  width: 100%;
+}
+
+.button_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_btn {
+  width: 200px;
+}
+
+/* terms and conditions */
+.tc_title {
+  font-size: xx-large;
+}
+
+.tc_subtitle {
+  font-size: medium;
+}
+
+/* Footer */
+.footer_container {
+  background-color: rgb(63, 62, 62);
+  padding: 40px 60px 0 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper {
+  display: flex;
+}
+
+.lower {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lower ul {
+  display: flex;
+  gap: 100px;
+}
+
+.lower ul li {
+  color: white;
+  font-weight: 600;
+}
+
+.upper_left {
+  width: 60%;
+}
+
+.upper_left p {
+  color: white;
+}
+
+.upper_left ul li {
+  color: white;
+}
+
+.upper_right {
+  width: 40%;
+}
+
+.footer_container ul {
+  margin: 0;
+  padding: 0;
+}
+
+.upper_right_upper {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+
+.upper_right_lower {
+  height: 60px;
+  width: 100%;
+}
+
+.div_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.div_one i {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.div_two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.div_three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.div_four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.upper_right_lower {
+  width: 100%;
+  display: flex;
+}
+
+.appstore_div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google_play_div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slt_logo {
+  width: 70%;
+}
+
+.national_emblem {
+  width: 25%;
+}
+
+.railway_logo {
+  width: 32%;
+}
+
+.appstore_logo {
+  width: 50%;
+}
+
+.google_play_logo {
+  width: 60%;
+}
+
+/* Login Form */
+
+.login_form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.datepicker {
+  height: 40px;
+  width: 200px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding-left: 20px;
+  font-size: large;
+}
+
+/* Login Form Ends */
+
+/* Checkout Form */
+.checkout_header {
+  color: gray;
+  text-transform: uppercase;
+}
+/* Checkout Form Ends */
+
+@media only screen and (max-width: 600px) {
+  .navBarNormal {
+    display: none;
+  }
+  .navBarNormalItem {
+    display: none;
+  }
+  .toggle_button {
+    display: block;
+  }
+
+  .toggleBar {
+    /* background-color: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    z-index: 1000;
+    display: flex;
+    left: -600px;
+    transition: 0.4s ease-in;
+  }
+  .toggleBarList {
+    background-color: #1976d2;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+.toggleBarlItem {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.togglebar_link {
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+  color: white;
+}
+.toggleBarlItem:hover {
+    background-color: #34495e;
+    cursor: pointer;
+  }
+  .closeBtn {
+    position: absolute;
+    cursor: pointer;
+    top: 6px;
+    right: 6px;
+    font-size: 1.2rem;
+  }
+  .active {
+    left: 0;
+  }
+}
