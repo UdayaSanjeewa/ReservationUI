@@ -1,1 +1,1 @@
-export const base_url = "http://localhost:5000/api/v1/";
+export const base_url = "https://reservations-b5fg.onrender.com/api/v1/";
